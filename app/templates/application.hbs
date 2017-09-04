@@ -1,0 +1,35 @@
+<div class="app">
+	<div class="app-action ui buttons">
+	  <button class="ui button">Cancel</button>
+	  <div class="or"></div>
+	  <button class="ui positive button">Save</button>
+	</div>
+	<div class="container">
+		<section>
+			<h2 id="title">Jekyll Post Editor</h2>
+			{{froala-editor}}
+			{{froala-content}}
+		</section>
+		<aside>
+			<form class="ui form">
+			  <div class="field">
+			    <label>First Name</label>
+			    <input type="text" name="first-name" placeholder="First Name">
+			  </div>
+			  <div class="field">
+			    <label>Last Name</label>
+			    <input type="text" name="last-name" placeholder="Last Name">
+			  </div>
+			  <div class="field">
+			    <label>First Name</label>
+			    <input type="text" name="first-name" placeholder="First Name">
+			  </div>
+			  <div class="field">
+			    <label>Last Name</label>
+			    <input type="text" name="last-name" placeholder="Last Name">
+			  </div>
+			</form>
+		</aside>
+	</div>
+	{{outlet}}
+</div>
